@@ -49,6 +49,16 @@ Your domain needs to be set up:
 
 .. include:: includes/web-domain-list.rst
 
+You may need to change your PHP version to the current requirements:
+
+.. code-block:: console
+
+  [isabell@stardust ~]$ uberspace tools version use php 8.1
+  Selected PHP version 8.1
+  The new configuration is adapted immediately. Patch updates will be applied automatically.
+  [isabell@stardust ~]$
+
+
 Installation
 ============
 
